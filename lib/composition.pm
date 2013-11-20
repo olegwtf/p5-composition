@@ -2,6 +2,8 @@ package composition;
 
 use strict;
 
+our $VERSION = '0.01';
+
 sub import {
 	my $class = shift;
 	
@@ -38,3 +40,13 @@ sub _make_pkg {
 }
 
 1;
+
+__END__
+
+=pod
+
+=head1 NAME
+
+composition - make modules composition
+
+=cut
